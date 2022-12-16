@@ -1,0 +1,474 @@
+<!-- I created this site by following along with Jeff's bootstrap video -->
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale-1">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <title>My Portfolio</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm bg-light text-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Portfolio</a>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="navbar-item"><a href="#personas" class="nav-link">Personas</a></li>
+                    <li class="navbar-item"><a href="#redesign" class="nav-link">Responsive Redesign</a></li>
+                    <li class="navbar-item"><a href="#iterative" class="nav-link">Iterative Design</a></li>
+                    <li class="navbar-item"><a href="#cube" class="nav-link">RGB LED Cube</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<div id="home" class="d-flex flex-column container-fluid">
+    <h1>About Me</h1>
+    <img src="images/Gonzo.jpeg" alt="This is a picture of me, Gonzo" style="width: 15rem; height: 15rem;">
+    <p>
+        This is me and I like things </p>
+</div>   
+<div id="personas" class="d-flex flex-column container-fluid">
+    <h1>Personas</h1>
+    <div id="interface" class="d-flex flex-column container-fluid">
+        <h2>Interface</h2>
+        <img src="images/microwave.png" alt="a mockup image of the interface of a microwave" style="width: 60rem; height: 30rem;">
+        <p>
+          This interface is a microwave located in the kitchen of one of the department buildings on Brown campus. 
+          This microwave is for users to quickly warm up their food in an efficient manner, allowing for minimal button presses. 
+          It contains a bar for a user to open the microwave. It also contains various buttons. 
+          The first buttons listed are preset buttpns such as Pizza or Popcorn that are tailored to warm up specific items.
+          The next set of buttons is related to the settings of the microwave, such as the power level or the time on the clock.
+          Then there is a number pad to allow the user to enter a specific time for their food. The numbers 1-6 are express cook so when
+          a user presses one of them, it will automatically microwave for that amount of minutes, without requring a user to enter the full time. 
+          There is also a start and stop button. </p>
+    </div>
+    
+    <div id="interview" class="container-fluid">
+        <h2>Interviews and Observations</h2>
+        <h3>Key Observations</h3>
+    
+        <p>The main observations I found when observering users interacting with the microwave were:</p>
+        <ul>
+            
+            <li>One general pattern across all users I observed using the microwave was that they all began by grabbing the handle on the microwave to open it, 
+                then placed their item in the center of the microwave and stopped the microwave before the timer finished.</li>
+            <li>The main difference I observed from user to user was the way they selected the amount of time to microwave their item. 
+                One user used the start button to microwave their item for 30 seconds. Another user pressed the 1 express button and then 
+                repeatedly pressed the start button to increment the time by 30 seconds with each press until they had the desired time. 
+                Another user selected their time by simply using one of the express times and did not utilize the start button at all.</li>
+        </ul>
+        <h3>Interview Questions</h3>
+        <ol type="1">
+            <li>What are you drawn to on the microwave?</li>
+            <li>Do you utilize the shortcut buttons at the top when heating up specific items?</li>
+            <li>Are there any buttons on the microwave that you find to have an unclear purpose?</li>
+            <li>Are there any difficulties you had when using the microwave?</li>
+            <li>How does this microwave compare to other microwaves you have used in the past? </li>
+            <li>Are there any features that you would like for this microwave to have?</li>
+        </ol>
+        <h3>Summary of Responses</h3>
+        <ul>
+            <li>Users said that they were drawn to the handle on the microwave. One user said that he was specifically drawn to the handle 
+                because it is a lighter color than the rest of the microwave.</li>
+            <li>Users do not utilize the buttons on the microwave aside from the number buttons and the start and clear buttons. In general the 
+                shortcuts were not even acknowledged by users, and once they were acknowledged by the user, were often the source of confusion for them.</li>
+            <li>When it came to difficulties while using the microwave, one user said that he didn't have any difficulties while using the microwave but he felt that 
+                he “wasn't using it to its full potential”. Two users expressed difficulties with setting the microwave to cook for a specific amount of time and 
+                only knew how to use the express buttons and the start button to increment by 30 seconds. One user was unsure if the kitchen timer or time cook button 
+                was the way to go about this. </li>
+            <li>When compared to other microwaves that they have used in the past, one user stated that they preferred another microwave they had used that did not have 
+                the express cook buttons because they preferred manually entering the exact time to cook. Another user stated that they preferred that this microwave 
+                has a bar to open it rather than a large button.</li>
+            <li>When considering additional features for this microwave to have, one user stated that she would like if there was a touch screen for the buttons that allowed 
+                a user to swipe through the different options rather than displaying all the buttons at once.</li>
+        </ul>
+    </div>
+    
+    <div id="personas" class="container-fluid">
+        <h2>Personas</h2>
+        <img src="images/specificsarah.png" alt="an empathy map of a user" style="width: 40rem; height: 50rem;">
+        <img src="images/testfultom.png" alt="an empathy map of a user" style="width: 40rem; height: 50rem;">
+    </div>
+    <div id="storyboard" class="container-fluid">
+        <h2>Storyboard</h2>
+        <h4>Specific Sarah Warms Up Popcorn</h4>
+        <img src="images/storyboard.jpg" alt="a storyboard displaying Specific Sarah" style="width: 50rem; height: 50rem;">
+    </div> 
+</div>
+
+<div id="redesign" class="container-fluid">
+    <h1>Responsive Redesign</h1>
+    <h2>Pizza Garden's Current Webpage</h2>
+    <img src="images/pizzagarden1.jpg" alt="a screenshot of a local pizzeria website" style="width: 60rem; height: 30rem;">
+    <img src="images/pizzagarden2.jpg" alt="another screenshot of a local pizzeria website" style="width: 60rem; height: 30rem;">
+    <a href="https://www.pizzagarden.com/">Pizza Garden's website</a>
+    <p>I choose this website because it is a local pizzeria to me and I felt like the website is cluttered. </p>
+</div>
+
+<div id="problems" class="container-fluid">
+    <h2>Identifying Usability Problems</h2>
+    <h3>Problems</h3>
+
+    <ul>
+        <li>Webpage does not have a clear hierarchy.</li>
+        <li>No hierarchical distinguishment between the navigation bar and the address and phone number. </li>
+        <li>The same information is repeated multiple times.</li>
+        <li>There are three buttons to their Facebook page and the written url for it.</li>
+        <li>A url is written out without a link so a user would have to manually enter it to access it.</li>
+        <li>The address and phone number are written twice in different locations.</li>
+        <li>There are two search bars.</li>
+        <li>Multiple options provided to contact them.</li>
+        <li>Key information, such as the hours of the restaurant or how to place an order are not presented so that they can be found efficiently.</li>
+        <li>Users have to scroll to place an online order.</li>
+        <li>Unlabeled QR code. Doesn't provide context to the user.</li>
+        <li>Multiple designs for buttons.</li>
+        <li>Different fonts and colors used for different headings.</li>
+        <li>No spacing between sections on the bottom half of the page.</li>
+        <li>The “MORE” section of the navigation bar leads to information already presented on home page.</li>
+        <li>“Coupons” section of the navigation bar leads to a picture of the different coupons over the decades, rather than discounts. Different from what a user might expect of the label.</li>
+        <li>Restaurant's theme song automatically plays.</li>
+        <li>Listed store hours do not include AM/PM</li>
+    </ul>
+    <h3>Accessibility</h3>
+    <p>I do agree with most of the accessibility findings detected. None of the images in the gallery section have alt text, and three pictures that do have alt text, have the same descriptions, despite being wildly different. The page also uses a lot of layout tables which makes it difficult for screen readers. There are 3 headings with level 2 but only one of them is a heading. The only accessibility issue detected that I disagree with is the contrast issues. It found problems with the text written on the blackboard, but I considered the contrast to be readable.  </p>
+</div>
+
+<div id="lofi" class="container-fluid">
+    <h1>Low Fidelity Wireframes</h1>
+    <img src="images/wireframe1.jpg" alt="low fidelity sketch of a pizzeria website on a browser" style="width: 60rem; height: 50rem;">
+    <br>
+    <img src="images/wireframe2.jpg" alt="low fidelity sketch of a pizzeria website on a smartphone" style="width: 25rem; height: 50rem;">
+    <img src="images/wireframe3.jpg" alt="low fidelity sketch of a pizzeria website on a tablet" style="width: 40rem; height:55rem;">
+
+    <ol type="1">
+        <li>Added a consistent theme to the headings and text.</li>
+        <li>Placed all the contact information together as well as reduced redundancy of multiple Facebook links.</li>
+        <li>Placed address and phone number at top of page for easy access.</li>
+        <li>Order online button placed in easily locatable position so that users no longer need to scroll to find it. </li>
+        <li>Added “AM” and “PM” to store hours.</li>
+        <li>Added a button for the instructions for the pizza kit to remove some of the text. </li>
+        <li>Removed parts of navigation bar that are already displayed on the page such as the gallery section or pizza kit section. Also removed the coupons tab.</li>
+        <li>Organized all the gallery photos into a slideshow to reduce clutter.</li>
+        <li>Increased spacing between sections on page.</li>
+        <li>Got rid of one of the unnecessary search bars and kept one for simplicity. </li>
+    </ol>
+</div>
+<div id="guide" class="container-fluid">
+    <h2>Visiual Design Style Guide</h2>
+    <img src="images/visual guide.jpg" alt="a visual design guide for my redesign of a pizza website" style="width: 60rem; height: 50rem;">
+</div>
+<div id="hifi" class="container-fluid">
+    <h2>High Fidelity Prototypes</h2>
+    <img src="images/hifi1.jpg" alt="a high fidelity prototype of a pizzeria on a browser" style="width: 60rem; height: 50rem;">
+    <p>The browser contains:</p>
+    <ul>
+        <li>a flexbox with two columns and two rows</li>
+        <li>each of the boxes is one cell</li>
+        <li>they are centered using space-between</li>
+    </ul>
+    <br>
+    <img src="images/hifi2.jpg" alt="a high fidelity prototype of a pizzeria on a smartphone" style="width: 25rem; height: 55rem;">
+    <img src="images/hifi3.jpg" alt="a high fidelity prototype of a pizzeria on a tablet" style="width: 35rem; height: 55rem;">
+    <p>The smartphone and tablet contain:</p>
+    <ul>
+        <li>a flexbox with one column and four rows</li>
+        <li>each of the boxes is one cell</li>
+        <li>scrolling is enabled</li>
+    </ul>
+    <p>In all three sizes:</p>
+    <ul>
+        <li>the position of the header is absolute and is pinned to the top of the page</li>
+        <li>the position of the footer is absolute and is pinned to the bottom of the page</li>
+    </ul>
+</div>
+</div>
+
+<div id="iterative" class="container-fluid">
+    <h1>Iterative Redesign</h1>
+    <p>We selected an emerging startup and designed an interactive interface using their vision. We went through the full process of mocking up a solution to the startup's concept.</p>
+      </header>
+      <section>
+        <h2>Selecting a Startup</h2>
+        <p>We had to pick a recent startup from Y Combinator and attempt to design a prototype of an interface that would solve the startup's problem, but without looking at any of the startup's products.</p>
+        <p>For our startup, we selected Tangia, a monetization platform for streamers that enables viewers to buy interactions that affect the game being streamed in real time. For example, a viewer pays $15 to spawn a boss enemy, and it instantly appears in the streamer's Minecraft world.</p>
+        <p>We read <a href="https://www.ycombinator.com/companies/tangia">Tangia's vision on Y Combinator</a>, but did not view any of their designed interfaces before completing the project.</p>
+      </section>
+      <section>
+        <h2>Sketching & Wireframing</h2>
+        <h3>Pre-Design Thinking</h3>
+        <p>Tangia affects both the viewers and the streamers. Because we would expect the viewers and the streamers to see two very different interfaces, we decided to focus solely upon the interface for viewers. We sketched a variety of possible interfaces, all of which were intended for desktop.</p>
+        <h3>Sketching</h3>
+        <p>We explored several design alternatives in order to imagine what Tangia might look like.</p>
+        
+        <!-- rounded's sketches -->
+        <h4>Tangia envisioned as a standalone streaming site integrated with streaming servies to both interact with and watch a stream.</h4>
+        <figure>
+          <img src='images/rounded_sketches.png' alt=''/>
+          <figcaption> 
+            <ul>
+              <li>Top: vertical scrolling and item checkout selection with a pop-out tab</li>
+              <li>Middle: Horizontal scrolling with a checkout pop-out tab</li>
+              <li>Bottom: Horizontal scrolling with horizontal expanding tab</li>
+            </ul>
+            <p>(<a href='images/rounded_sketches.png'>enlarge sketch</a>)</p>
+          </figcaption>
+        </figure>
+        
+        <!-- shyworm's sketches -->
+        <h4>Tangia envisioned as a standalone website that will accompany other streaming services (such as Twitch, YouTube, etc).</h4>
+        <figure>
+          <img src='images/shyworm_sketches.png' alt=''/>
+          <figcaption> 
+            <ul>
+              <li>Top: home page with a welcome message, recommended streams, and search/browsing options in the left navigation bar</li>
+              <li>Bottom Left: streamer's page with a preview of their stream and scrollable content of the purchasable interactions. The navigation bar from the home page remains.</li>
+              <li>Bottom Right: built on the streamer's page, the checkout page appears like a pop-up that blocks the rest of the screen while the user purchases the interaction.</li>
+            </ul>
+            (<a href='images/shyworm_sketches.png'>enlarge sketch</a>)
+          </figcaption>
+        </figure>
+       
+        <!-- sleepyotter's sketches -->
+        <h4>Tangia envisioned as an embedded feature on a streaming service such as Twitch.</h4>
+        <figure>
+          <img src='images/embedded1.JPG' alt=''/>
+          <figcaption> Interactivity of hover within the embedded feature(<a href='images/interface_sketch.png'></a>)</figcaption>
+          <img src='images/embeddedselect.JPG' alt=''/>
+          <figcaption>Version of the spawn in feature selections with descriptions and images not grouped together (<a href='images/interface_sketch.png'>enlarge sketch</a>)</figcaption>
+          
+          <img src='images/embeddedselectdescription.JPG' alt=''/>
+          <figcaption>Popup of what image and description grouping would look like (<a href='images/interface_sketch.png'>enlarge sketch</a>)</figcaption>
+        
+          <img src='images/embeddedcheckout.JPG' alt=''/>
+          <figcaption>Option for pricing where pricing is determined by how long until the feature would be spawned in stream. (<a href='images/interface_sketch.png'>enlarge sketch</a>)</figcaption>
+  
+  
+          <img src='images/timeuntilspawn.JPG' alt=''/>
+          <figcaption>Another option where timing could be specifically determined and would affect pricing. (<a href='images/interface_sketch.png'>enlarge sketch</a>)</figcaption>
+        </figure>
+        
+        <!-- mawkishmeerkat's sketches -->
+        <h4>Tangia envisioned as a standalone streaming site integrated with streaming servies to both interact with and watch a stream.</h4>
+        <figure>
+          <img src='images/meerkat.JPG' alt=''/>
+          <figcaption>
+            Clockwise, starting from top: sign-in page; profile picture with input boxes for information and buttons for logout and saving/canceling new information; payment page for adding a card info; streamer profile page whereon the user can but interactions; home page where user can search for streamers and see streamers she follows.
+            (<a href='images/meerkat.JPG'>enlarge sketch</a>)
+          </figcaption>
+        </figure>
+        
+        <h3>Combining Ideas into a Wireframe</h3>
+        <p>After a group design sprint, we took the best elements of each sketch to create one cohesive wireframe for a standalone interface. There were many possible ways for Tangia to exist (such as a feature embedded in streaming services or a browser extension), but we decided to move forward envisioning Tangia as a standalone site.</p>
+        <figure>
+          <img src="images/wireframe.png">
+          <figcaption>Wireframe that combined our ideas from our individual sketches. (<a href="images/wireframe.png">enlarge wireframe</a>)</figcaption>
+        </figure>
+        <p>This final wireframe incorporated ideas from all of our sketches.</p>
+        <ul>
+          <li>From the browser extension, we took the sign-in page and navigation bar formats.</li>
+          <li>From the embedded sketch, we took the idea of a “interaction delay” for purchasable items and the grouping of purchasable items into visually distinct boxes.</li>
+          <li>From the standalone accompanying site, we took the “recommended streams” on the home page and the design of the home page in general.</li>
+          <li>From the standalone site integrated with streaming services, we took vertical scrolling and a banner for the active launch</li>
+        </ul>
+      </section>
+      <section>
+        <h2>Mockups</h2>
+        <h3>Interactive High-Fidelity Mockup</h3>
+        <p>
+          Next, we created an interactive high-fidelity prototype, which is an enhanced version of the combined wireframe, populated with sample realistic content. Feel free to interact with the prototype and navigate through the different screens. 
+        </p>
+        <figure>
+          <iframe width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FLMDZCLdjD5Z8SmkTdak7AC%2FTangia-Re-design%3Fnode-id%3D1%253A338%26scaling%3Dscale-down%26page-id%3D0%253A1%26starting-point-node-id%3D1%253A833" allowfullscreen></iframe>
+          <figcaption>Figma prototype of our Tangia interface before critique</figcaption>
+        </figure>
+        <h3>Mockup Critique</h3>
+        <p>
+          After designing our high-fidelity prototype, we shared with 30 other people and received feedback and critiques from them. The critiques and the changes we implemented in response to the critiques are listed below.
+        </p>
+        <table>
+          <thead>
+            <tr>
+              <th id="left-col-header">Critique Received</th>
+              <th id="right-col-header">Change Implemented</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Provide reassurance for users in regards to security for payment </td>
+              <td>Added a lock icon next to the payment information in account settings</td>
+            </tr>
+            <tr>
+              <td>Search bar in right rail is confusing</td>
+              <td>Removed the search bar from the right rail</td>
+            </tr>
+            <tr>
+              <td>Badges had unclear meaning</td>
+              <td>Removed badges from account page completely</td>
+            </tr>
+            <tr>
+              <td>Dark mode takes up too much space on the nav bar</td>
+              <td>Removed dark mode from the nav bar and placed it in the account page and only kept it in sign in</td>
+            </tr>
+            <tr>
+              <td>Breathability</td>
+              <td>Removed the search bar from the right rail, reduced size of top nav bar, reduced right rail to ⅔ the  original size</td>
+            </tr>
+            <tr>
+              <td>Unclear color hierarchy. Colors don't have consistent meaning in regards to their function.</td>
+              <td>Adhered to a consistent visual style so that button colors and background colors, etc are all consistently used throughout the different pages of the site. Things that looked similar to buttons were changed to avoid confusion.</td>
+            </tr>
+            <tr>
+              <td>Despite the importance of the stream, it was relatively small on the page. Unable to see the chat</td>
+              <td>Made stream bigger</td>
+            </tr>
+            <tr>
+              <td>Unclear if the streaming page was a page for a specific streamer or the user's profile page. Confused by the big logo with username with the streamer name. Unsure if that is  their name or the streamer's name</td>
+              <td>Added "[streamer name] is streaming [game name]"" to clarify that the streaming page is the streaming page and made the name and image smaller</td>
+            </tr>
+            <tr>
+              <td>Would this have compatibility with other streaming platforms like youtube or facebook? People felt main purpose of Tangia was more so a streaming platform rather than a support to make streams more interactive</td>
+              <td>Added a return to Twitch button and the location of stream is now indicated under the description of streams</td>
+            </tr>
+            <tr>
+              <td>In-app currency</td>
+              <td>Replaced money with tangerines (like bits on Twitch)</td>
+            </tr>
+            <tr>
+              <td>Confused if users have the ability to switch which streamer they are watching within Tangia</td>
+              <td>Added home page with multiple suggested / previously watched streamers and a search bar so that users can search for different streamers. This also aids in site navigation.</td>
+            </tr>
+          </tbody>
+          </table>
+        <p>
+          We modified our previous prototype, which you can interact with here. 
+        </p>
+        <figure>
+          <iframe width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FLMDZCLdjD5Z8SmkTdak7AC%2FTangia-Re-design%3Fnode-id%3D55%253A1543%26scaling%3Dcontain%26page-id%3D1%253A1119%26starting-point-node-id%3D55%253A2475" allowfullscreen></iframe>
+          <figcaption>Figma prototype of our Tangia interface after implementing suggestions from critique</figcaption>
+        </figure>
+        <p>
+          Design choices to achieve the original goals of the startup:
+        </p>
+        <ul>
+          <li>
+            Including a "dark mode" appeals to the intended audience of Tangia, which is gamers who frequently prefer a dark mode.
+          </li>
+          <li>
+            Centralized the purchasable interactions to put them higher in the visual hierarchy.
+          </li>
+          <li>
+            Heavily featured stream spawn stats and recent interactions from other users to both emphasize and engage users primarily in the form of in-game interactions.
+          </li>
+          <li>
+            Gamified purchasing using Tangerines (&#127818;) to incentivize spending for the intended audience of gamers.
+          </li>
+          <li>
+            We chose to always have a method on each page to directly return to the most recent stream the user has spawned an item for.
+          </li>
+          <li>
+            The checkout window is unintrusive and doesn't obscure the main functionality of the page, which is browsing interactions and watching the livestream.
+          </li>
+          <li>
+            After making a purchase, the interaction appears in the top bar; this maintains engagement by keeping interactions in view and in mind before they spawn in stream.
+          </li>
+          <li>
+            The home page increases engagement with streamers by showing recommendations for new streams that the viewer might not have seen before.
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h2>User Testing</h2>
+        <h3>Assigned Task</h3>
+        <p>Imagine you are a viewer of the Twitch streamer thejocraft_live. Buy a "Creeper Mob Spawn!" interaction and confirm the purchase in your order history. Please think aloud as you perform the task. You will be interacting with a Figma prototype and not a fully functional website.</p>
+        <h3>Testing Instructions via <a href="https://www.usertesting.com/">UserTesting.com</a></h3>
+        <p>Listed here are the instructions given to users while testing the prototype.</p>
+        <ol>
+          <li>Choose between light or dark mode, and sign in please.</li>
+          <li>Do not click on anything yet please! Describe what you are seeing on the home page. How would you interact with this page?</li>
+          <li>Please proceed to thejocraft_live's stream page, and describe what you are seeing on the page and what you would do. </li>
+          <li>Please purchase a "Creeper Mob Spawn!" interaction for thejocraft_live's stream. Please remember to describe your thought process as you work through this task!</li>
+          <li>How do you know that your purchase registered? </li>
+          <li>If you have not yet, please confirm your purchase in your order history.</li>
+          <li>How would you navigate to the home page?</li>
+        </ol>
+        <h3>Analysis of Results</h3>
+        <h4>Expectations</h4>
+        <p>We expect the home page and checkout process to be intuitive and smooth.</p>
+        <p>We primarily think that the task of navigating to order history might be more difficult for users.</p>
+        <p>In addition, we suspect that subjects may be confused about the overall purpose of the site (such as what the embedded Twitch stream is for).</p>
+        <h4>Observations and Errors</h4>
+        <p>We had three users test our site: Vikingevaluator, Tubbington, and Sessa925.</p>
+        <figure>
+          <blockquote>
+            "I would be able to spawn certain types of, probably, characters in the game to make it more enjoyable and maybe to participate in the game. This is very interesting, by the way. The viewer is not only watching the scene but also participating in the gameplay. This is very nice."
+          </blockquote>
+          <figcaption>-Vikingevaluator</figcaption>
+        </figure>
+        <figure>
+          <video width="800" height="450" controls>
+            <source src="images/UserTestingA.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+          <figcaption>Screencapture of Vikingevaluator's walkthrough of our prototype</figcaption>
+        </figure>
+        <figure>
+          <video width="800" height="450" controls>
+            <source src="images/UserTestingB.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+          <figcaption>Screencapture of Tubbington's walkthrough of our prototype</figcaption>
+        </figure>
+        <figure>
+          <video width="800" height="450" controls>
+            <source src="images/UserTestingC.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+          <figcaption>Screencapture of Sessa925's walkthrough of our prototype</figcaption>
+        </figure>
+        <ul>
+          <li>Vikingevaluator did not make it to the order history but did everything else; Tubbington did everything; Sessa925 did not complete an order but did everything else.</li>
+          <li>Tubbington initially thought that the images on the homepage led to clips of previous streams rather than previous streams. Sessa925 was unsure why she would want to go back to a stream she recently watched.</li>
+          <li>Vikingevaluator did not make it to the order history as we thought might happen.</li>
+          <li>Tubbington first clicked the watch history in the account to attempt to go back to home. His second option was correctly the Tangia logo. He later said that clicking the logo was self-explanatory.</li>
+          <li>Sessa925 could not click on the scroll bar and scroll, which is an unfortunate limitation of Figma.</li>
+        </ul>
+        <h4>Possible Improvements</h4>
+        <p>The issue which Sessa925 ran into seems the most important to resolve, but it is not actually something we can fix because of Figma itself.</p>
+        <p>To clarify Tubbington and Sessa925's critiques, we would change the wording of "Recently Watched" to be "Current Stream" instead.</p>
+        <p>Two possible solutions to address Vikingevaluator's confusion: we could either put an exclamation mark on the profile icon to indicate that attention is warranted on the profile page, or we could add a bell icon with a number that indicates how many notifications the user has, including purchase notifications.</p>
+      </section>
+      <section>
+        <h2>Contacting the Startup</h2>
+        <p>To round out the project, we contacted the Tangia team and shared our project with them. Here's a copy of our email.</p>
+        <hr>
+        <p>
+          Hello!
+          <br><br>
+          We are sleepyotter, roundthings, mawkishmeerkat, and shyworm-our students from Brown University taking a class in UI / UX! We are concluding a group project in which we had to pick a recent startup from Y Combinator and attempt to design a prototype of an interface that would solve the startup's problem, but without looking at any of the startup's products. We were intrigued by the premise of your company—allowing viewers to interact with their favorite streamers—so we chose to tackle a prototype for Tangia! We decided to create a standalone website interface for viewers. Specifically, we created a prototype in Figma that allows a viewer to log in, navigate to a favorite streamer, and spawn creepers into the game! If you are interested, we have shared the Figma prototype with you. We can also share with you the whole writeup for our project if you would like! We would love to hear your thoughts on what we created!
+          <br><br>
+          Warmly,<br>
+          sleepyotter, roundthings, mawkishmeerkat, and shyworm
+        </p>
+      </section>
+</div>
+<div id="cube" class="container-fluid">
+    <h1>RGB LED Cube</h1>
+    <p>This is a 4 x 4 x 4 cube of RGB LEDs. It polls the current weather of a given location and changes the colors of the cube depending on the weather. For simplicity, the weather has been filtered into four states: rainy, clear skies, snowy, and cloudy. When it is rainy, the cube will display blue LEDs and light up each layer of the cube, one at a time, in a descending order. When it is clear, the cube will light up all green, because when it's sunny out, all you want to do is hang out on the Main Green. When it is snowy, the cube lights up in a rainbow pattern, like holiday lights. And finally, when it is cloudy, it will light up one row green and another row red.</p>
+    <img src="images/rainy.jpg" alt="a picure of a cube of LED lights lit up blue" style="width: 20rem; height: 20rem;">
+    <p>The cube lit up for a rainy pattern.</p>
+    <img src="images/clear.JPEG" alt="a picure of a cube of LED lights lit green" style="width: 20rem; height: 20rem;">
+    <p>The cube lit up for a clear skies pattern.</p>
+    <img src="images/snowy.JPEG" alt="a picure of a cube of LED lights lit up rainbow" style="width: 20rem; height: 20rem;">
+    <p>The cube lit up for a snowy pattern.</p>
+    <img src="images/cloudy.JPEG" alt="a picure of a cube of LED lights lit up green with some red" style="width: 20rem; height: 20rem;">
+    <p>The cube lit up for a cloudy pattern.</p>
+</div> 
+
+ </body>
+</html>
+
+
